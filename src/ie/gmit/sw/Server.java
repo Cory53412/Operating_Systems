@@ -406,7 +406,7 @@ public class Server extends Thread {
 				out.writeObject("You put a Machine for sale with the following information: " + "\n-Machine ID: "
 						+ machineID + ",\n-Name: " + name + ",\n-Age: " + age + "\n-Club ID:" + clubID + "\n-Vendor : "
 						+ vendor + "\n-Valuation: " + valuation + "\n-Last serviced in KM: " + lastServiceKM
-						+ "\nNext service in KM: " + nextServiceinKM + "\n-Current Km:" + currentkm + "\nSale Price: €"
+						+ "\nNext service in KM: " + nextServiceinKM + "\n-Current Km:" + currentkm + "\nSale Price: Â€"
 						+ salePrice);
 				out.flush();
 			}
@@ -431,7 +431,7 @@ public class Server extends Thread {
 			out.writeObject("Item for sales details: " + "\n-Machine ID: " + machineID + ",\n-Name: " + name
 					+ ",\n-Age: " + age + "\n-Club ID:" + clubID + "\n-Vendor : " + vendor + "\n-Valuation: "
 					+ valuation + "\n-Last serviced in KM: " + lastServiceKM + "\nNext service in KM: "
-					+ nextServiceinKM + "\n-Current Km:" + currentkm + "\nSale Price: €" + salePrice);
+					+ nextServiceinKM + "\n-Current Km:" + currentkm + "\nSale Price: Â€" + salePrice);
 			out.flush();
 		}
 	}
